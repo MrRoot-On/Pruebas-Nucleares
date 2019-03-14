@@ -24,3 +24,7 @@ return view('qrCode');
 });
 
 Route::get('barcode', 'barcode@barcode');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
