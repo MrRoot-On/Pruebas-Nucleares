@@ -28,3 +28,5 @@ Route::get('barcode', 'barcode@barcode');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/index', 'CarController@index')->name('index');
